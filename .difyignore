@@ -13,3 +13,9 @@ __pycache__/
 *.log
 .idea/
 .vscode/
+
+# not needed at runtime
+.difyignore
+.gitignore
+uv.lock
+.env.example
