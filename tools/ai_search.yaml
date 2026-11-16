@@ -5,8 +5,8 @@ identity:
     en_US: AI Search
 description:
   human:
-    en_US: Get an AI answer with links to its sources from web, X, Reddit, Hacker News, arXiv and Wikipedia.
-  llm: Runs a Desearch AI search across the chosen sources and returns a written answer plus the source links it used. Use it when a summarized answer with citations is needed.
+    en_US: Get an AI answer with source links. Choose web or X, or focus on Reddit, Hacker News, arXiv or Wikipedia.
+  llm: Runs a Desearch AI search and returns a written answer plus source links. Choose one source per call for predictable results. Selecting reddit, hackernews, arxiv or wikipedia restricts the whole search to that site, even when other sources are selected. Run separate calls to search those sites separately. Use it when a summarized answer with citations is needed.
 parameters:
   - name: prompt
     type: string
@@ -25,7 +25,7 @@ parameters:
     label:
       en_US: Sources
     human_description:
-      en_US: "Comma-separated list from: web, twitter, reddit, hackernews, arxiv, wikipedia."
+      en_US: "Choose one source per call: web, twitter, reddit, hackernews, arxiv or wikipedia. Selecting reddit, hackernews, arxiv or wikipedia restricts the whole search to that site, even with other sources selected."
   - name: date_filter
     type: select
     required: false

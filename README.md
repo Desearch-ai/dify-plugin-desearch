@@ -4,8 +4,10 @@ Search the web, search X (Twitter) and get AI answers with links to their source
 
 ## Tools
 - **Web Search**: titles, links and snippets for a query.
-- **AI Search**: an AI answer with links to its sources from web, X, Reddit, Hacker News, arXiv and Wikipedia.
+- **AI Search**: an AI answer with links to its sources. Choose web or X, or focus the search on Reddit, Hacker News, arXiv or Wikipedia.
 - **X Search**: X posts that match a query, with optional filters for user, language, date range and sort order.
+
+For AI Search, choose one source per call for predictable results: `web`, `twitter` (X), `reddit`, `hackernews`, `arxiv` or `wikipedia`. Selecting `reddit`, `hackernews`, `arxiv` or `wikipedia` restricts the whole search to that site, even if other sources are also selected. Run separate calls to search those sites separately.
 
 ## Setup
 1. Create a Desearch API key: https://console.desearch.ai/api-keys
